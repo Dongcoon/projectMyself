@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th=http://wwww.thymeleaf.org>
+<head>
+<meta charset="UTF-8">
+<title>클론 프로젝트</title>
+<link th:href="@{/static/css/base.css}" rel="stylesheet" />
+</head>
+<body>
+	<div id="container">
+		<th:block th:include="layout/header"/>
+			<div id="main"></div>
+		<th:block th:include="layout/footer"/>
+	</div>
+</body>
+</html>
